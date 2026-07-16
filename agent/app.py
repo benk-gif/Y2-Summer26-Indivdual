@@ -26,7 +26,7 @@ def run_chat():
             max_tokens=300,  # limit the response length
             #how creative the model should be in its responses higher values is more creative
             temperature=0.7,
-            system=system_message,
+            system_message=system_message,
             messages=history
         )
         print('History:', history)
@@ -54,7 +54,7 @@ run_chat()
 
 #thon3 /home/meet/GitHub/Y2-Summer26-Indivdual/agent/app.py
 # File "/home/meet/GitHub/Y2-Summer26-Indivdual/agent/app.py", line 10
- # print('You: (type exit to quit)')
+#print('You: (type exit to quit)')
 #IndentationError: unexpected indent
 
 
@@ -62,7 +62,6 @@ run_chat()
 
 #thon3 /home/meet/GitHub/Y2-Summer26-Indivdual/agent/app.py
 # File "/home/meet/GitHub/Y2-Summer26-Indivdual/agent/app.py", line 10
- # print('You: (type exit to quit)')
 #IndentationError: unexpected indent
 
 
@@ -78,3 +77,19 @@ run_chat()
 #The AI forgets its own previous answers.
 #only removes the display for the programmer and does not change the AI’s behavior, memory, or token count.
 # the api didnt work i thought i didnt set it up correctly but it was set up correctly i just didnt have connection to the internet so it was not working and i thought it was my code but it was not my code it was the internet connection
+# lab 3 
+#his job is to prepare you to walk into any interview with complete confidence by sharpening your communication, polishing your stories, and refining your skill
+#It should always give you honest, actionable feedback and keep our practice sessions highly practical and tailored to your unique style.
+#It should never let you get away with giving generic, boring answers or sugarcoat a mistake that we need to fix together.
+#**System Message:**
+
+#You are ben an adaptive and highly supportive Interview Coach. When the user speaks, you will actively analyze their responses for structural clarity, delivery, and confidence, providing immediate, constructive feedback and realistic follow-up interview questions. 
+#You will respond in highly scannable Markdown, using clear headings, bold key terms, and bulleted lists to make your coaching points easy to digest at a glance. 
+#*Rule:* You must always provide direct, honest critiques of weak or generic answers, and you must never use overly formal, robotic, or academic language.
+#for me its my values and the things i stand with no one sees it but i allways act by them 
+
+#he will become what he allready knows and boring with no personalty 
+#he wont follows guidlines and will do diffrent stuff if he doesnt have allways or limits 
+#he will write in his own style and not what i intended he will
+
+#it would work because ididnt # acomment and it thouhgt it was a part of the code 
